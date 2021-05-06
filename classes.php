@@ -11,7 +11,7 @@
     protected $atk;//攻撃力
     protected $spd;//スピード
     protected $msg; //戦闘の際の声
-    protected $img; //戦闘の際の声
+    protected $img; //キャラ画像
     
     public function __construct($name, $hp,  $atk, $spd,$msg, $img){
       
