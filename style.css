@@ -1,0 +1,190 @@
+body{
+    margin: 0 auto;
+    padding: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("img/background/top.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-width{
+    width: 980px;
+    margin: 0 auto;
+}
+.window{
+    background-color: rgba(68,68,68,0.8);
+    text-align: center;
+    border-radius: 10px;
+    border:solid 4px #fffff4;
+    color: #fffff4;
+    margin: 0 auto;
+}
+
+form{
+    height: 100%;
+    padding-top: 15px;
+}
+form p{
+    text-align: left;
+    padding-left: 1.5em;
+}
+
+
+input[type="submit"], form a{
+    display: block;
+    font-size: unset;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fffff4;
+    border: none;
+}
+
+input[type="submit"]:hover, form a:hover, #attack:hover{
+    opacity: 0.7;
+}
+
+form a{
+    width: 144px;
+}
+
+header{
+    height: 90px;
+    width: 90%;
+}
+header h2{
+    font-style: normal;
+    font-weight: unset;
+    line-height: 90px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+main{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+main .hero-select-area{
+    height: 620px;
+}
+
+main .hero-select img{
+    display: inline-block;
+    width: 60%;
+    padding: 3%;
+}
+main .hero-select p{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    height: 30px;
+}
+main .hero-select{
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.msg-area{
+    clear: both;
+    text-align: left;
+    padding: 20px;
+    margin-top: 30px;
+    width: 80%;
+    height: 160px;
+}
+.msg-area p{
+    padding-left: 20px;
+}
+
+/* ============== */
+/* 戦闘画面 */
+/* ============= */
+.enemy-img{
+    /* width: 40%; */
+    padding: 5%;
+    height: 300px;
+}
+
+.bottom-windows{
+    overflow: hidden;
+    width: 80%;
+    margin: 10px auto;
+}
+.battle-input-area{
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+.battle-input-area input[type="submit"]{
+    padding: 10px, 20px;
+}
+.battle-input-area input[type="submit"]:hover{
+    opacity: 0.5;
+}
+.battle-input-area>p>button{
+    background: none;
+    border: none;
+    font-size:16px;
+}
+
+
+
+.battle-msg-area{
+    width: 65%;
+    height: 215px;
+    float: right;
+}
+
+.battle-msg-area span{
+    opacity:0;
+}
+
+.bottom-windows img{
+    float: right;
+}
+
+.hero-img{
+    float:right;
+    width: 30%;
+}
+
+.status-area{
+    width: 20%;
+    margin-left: 10%;
+}
+
+.status-area p{
+    text-align: left;
+    padding-left: 30px;   
+}
+
+#ending-story>a, #last-battle{
+    text-shadow: 0 0 10px #fff,0 0 15px #fff;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+.form-last-battle{
+    margin: 0 auto;
+    padding: 0;
+}
+#last-battle{
+    margin: 0 auto;
+}
+
+.menu-selects, .magic-selects, .heal-selects{
+    cursor: pointer;
+}
+
+form select{
+    float: right;
+    height: 25%;
+    width: 20%;
+    font-size: 16px;
+}
+
